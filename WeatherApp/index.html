@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fontes para o projeto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!--Icones para o projeto-->
+    <script src="https://kit.fontawesome.com/CHAVE DA API.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="form">
+            <h3>Confira o clima de uma cidade:</h3>
+            <div class="form-input-container">
+              <input
+              type="text"
+              placeholder="Digite o nome da cidade"
+              id="cidadeEntrada"
+            />
+            <button id="busca">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            </div>
+          </div>
+        <div id="informacacoesTempo" class="hide">
+            <h2>
+                <i class="fa-solid fa-location-dot"></i>
+                <span id="cidade"></span>
+                <img <img src="" alt="Bandeira do País" id="pais">
+            </h2>
+            <p id="temperatura"> <span></span></p>
+            <div id="description-container">
+                <p id="descricao"></p>
+                <img src="" alt="Condicão do tempo" id="iconeTempo">
+            </div>
+            <div id="details-container">
+                <p id="umidade">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span></span>
+                </p>
+                <p id="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <span></span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripts.js" ></script>
+</body>
+
+</html>
